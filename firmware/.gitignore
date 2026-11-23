@@ -1,0 +1,6 @@
+# Kredensial lokal firmware — jangan pernah di-commit
+wifi_secrets.private.h
+build/
+*.bin
+*.elf
+*.map

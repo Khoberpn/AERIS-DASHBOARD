@@ -1,0 +1,69 @@
+
+# =====================================
+# AERIS DASHBOARD
+# =====================================
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets/
+credentials.json
+service-account*.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ESP32 / PlatformIO
+.pio/
+.piolibdeps/
+.pioenvs/
+.clangd/
+
+# Logs
+*.log
+logs/
+
+# Generated cache
+.cache/
+.tmp/
+temp/
+
+# IDE
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
